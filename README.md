@@ -73,12 +73,6 @@ Contributions are welcome! Please fork the repository and submit a pull request 
 
 ---
 
-## License
-
-This project is open-source and available under the [MIT License](LICENSE).
-
----
-
 *Note: This project is for educational and personal use. Ensure compliance with Shopee's terms of service when using this scraper.*
 
 ---
