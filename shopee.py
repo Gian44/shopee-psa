@@ -1,8 +1,6 @@
 import threading
 import webbrowser
-from playwright.sync_api import sync_playwright
 import os
-from pathlib import Path
 import tkinter as tk
 from tkinter import ttk, messagebox
 from config import *

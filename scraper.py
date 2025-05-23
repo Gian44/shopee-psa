@@ -7,7 +7,6 @@ import tkinter as tk
 from playwright.sync_api import sync_playwright
 from bs4 import BeautifulSoup
 from config import *
-from tkinter import ttk, messagebox
 from database import DatabaseManager
 
 class ShopeeScraper:

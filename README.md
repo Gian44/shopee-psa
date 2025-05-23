@@ -32,6 +32,11 @@
    pip install -r requirements.txt
    ```
 
+   After installing the requirements, run
+
+    ```bash
+   playwright install
+   ```
 
 
 ---
@@ -40,7 +45,7 @@
 
 1. **Configure Settings**:
 
-   Edit the `config.py` file to set your desired parameters, such as search keywords, number of pages to scrape, etc.
+   Edit the `config.py` file to set your desired parameters, such as cookie file and db name.
 
 2. **Run the Scraper**:
 
@@ -52,14 +57,14 @@
 
 
 
-The script will fetch product data from Shopee and store it in `shopee_products.db`.
+The script will fetch product data from Shopee and store it in your `.db` file.
 
 ---
 
 ## Files Overview
 
-* `scraper.py`: Main script to initiate the scraping process.
-* `shopee.py`: Contains functions specific to interacting with Shopee's website.
+* `scraper.py`: Contains functions specific to interacting with Shopee's website.
+* `shopee.py`: Main script to initiate the scraping process.
 * `database.py`: Handles database connections and operations.
 * `config.py`: User-configurable settings for the scraper.
 * `shopee_products.db`: SQLite database storing scraped product information.
