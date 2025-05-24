@@ -322,7 +322,7 @@ class ShopeeScraper:
                         f'--lang={self.locale.split(",")[0]}',
                         '--start-maximized'
                     ],
-                    channel="chrome",
+                    channel="msedge",
                     chromium_sandbox=False,
                     ignore_default_args=["--enable-automation"]
                 )
